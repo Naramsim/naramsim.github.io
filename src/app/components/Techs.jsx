@@ -10,7 +10,7 @@ class TechGroup extends React.Component {
 			);
 		});
 		return (
-			<div>
+			<div className='techs'>
 				{rowTech}
 			</div>
 		);

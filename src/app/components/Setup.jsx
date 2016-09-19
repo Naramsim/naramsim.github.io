@@ -14,7 +14,9 @@ class SetUp extends React.Component {
 		}
 		return (
 			<div className='rect'>
-				{setup}
+				<div className='techs'>
+					{setup}
+				</div>
 			</div>
 		);
 	}

@@ -12,11 +12,11 @@ class Main extends React.Component {
 					<div>
 						<img className='profilePicture' src={this.props.data.profilePicture} />
 					</div>
-					<div className='margAbove20'>
+					<div className='margAbove20 xl'>
 						<a href={ghLink}>{this.props.data.name}</a>
 					</div>
 				</div>
-				<div className='width50'>
+				<div className='width30 l'>
 					{this.props.data.description}
 				</div>
 			</div>

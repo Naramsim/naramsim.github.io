@@ -16,6 +16,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .main {
@@ -25,10 +26,41 @@ a {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	background-color: #ccc;
+	background-blend-mode: overlay;
+	box-shadow: 0 3px 10px 1px #828282;
 }
 
-.width50 {
-	width: 50%;
+.rect {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.rect > div {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 50%;
+	height: 400px;
+}
+
+.showcase {
+	flex-direction: column;
+}
+
+.techs {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	text-align: center;
+}
+
+.techLogo {
+	height: 30px;
+}
+
+.width30 {
+	width: 30%;
 }
 
 .profilePicture {
@@ -40,4 +72,25 @@ a {
 
 .margAbove20 {
 	margin-top: 20px;
+}
+
+.paddHori10 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.xl {
+	font-size: 50px;
+}
+
+.l {
+	font-size: 24px;
+}
+
+.m {
+	font-size: 12px;
+}
+
+.grayed{
+	color: #bbb;
 }
