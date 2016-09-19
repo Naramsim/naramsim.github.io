@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     target: 'web',
     devtool: 'sourcemap',
-    entry: './src/app/components/Main.jsx',
+    entry: './src/app/components/App.jsx',
     output: {
         libraryTarget: 'umd',
         path: 'dist',

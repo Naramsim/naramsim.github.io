@@ -1,0 +1,193 @@
+{
+	"name": "Alessandro Pezzé",
+	"githubUsername": "Naramsim",
+	"profilePicture": "https://avatars3.githubusercontent.com/u/8996268?v=3&s=466",
+	"coverPicture": "https://drscdn.500px.org/photo/128169293/q%3D80_m%3D2000/314eb533f9ef98b31c854ccdc2de5af2",
+	"description": "jasndjnKJsnkjasnd kjasndk jasnd kjasnd kasjnd kajnd kjna ksjn",
+	"showcase": [
+		{
+			"name": "GithubOriginalStreak",
+			"description": "hehehehhe",
+			"size": "mid",
+			"techs": [
+				{
+					"name": "ES6",
+					"icon": "es6"
+				},
+				{
+					"name": "Webpack",
+					"icon": "webpack"
+				}
+			]
+		},
+		{
+			"name": "Colosseum",
+			"description": "hahahhahaha",
+			"size": "mid",
+			"techs": [
+				{
+					"name": "ES6",
+					"icon": "es6"
+				},
+				{
+					"name": "Webpack",
+					"icon": "webpack"
+				},
+				{
+					"name": "Angular",
+					"icon": "angular-icon"
+				},
+				{
+					"name": "CSS3",
+					"icon": "css-3"
+				}
+			]
+		},
+		{
+			"name": "Betterbin",
+			"description": "Huhuhuhuhuhuh",
+			"size": "mid",
+			"techs": [
+				{
+					"name": "Meteor",
+					"icon": "meteor"
+				},
+				{
+					"name": "Mongo",
+					"icon": "mongodb"
+				}
+			]
+		},
+		{
+			"name": "pokedex-promise-v2",
+			"description": "hohohohoho",
+			"size": "mid",
+			"techs": [
+				{
+					"name": "ES6",
+					"icon": "es6"
+				},
+				{
+					"name": "Webpack",
+					"icon": "webpack"
+				}
+			]
+		}
+	],
+	"people": {
+		"githubFriends": [
+			{
+				"name": "Mattia Affabris",
+				"ghLink": "Gliptal"
+			},
+			{
+				"name": "Federico Baldessari",
+				"ghLink": "balde73"
+			},
+			{
+				"name": "Norbert Paissan",
+				"ghLink": "npaissan"
+			},
+			{
+				"name": "Marco Michelotti",
+				"ghLink": "kamauz"
+			},
+			{
+				"name": "Alessio Gorla",
+				"ghLink": "gorlux"
+			}
+		],
+		"githubAdmired": [
+			{
+				"name": "Sindre Sorhus",
+				"ghLink": "sindresorhus"
+			},
+			{
+				"name": "Eval You",
+				"ghLink": "yyx990803"
+			},
+			{
+				"name": "Addy Osmani",
+				"ghLink": "addyosmani"
+			},
+			{
+				"name": "TJ Holowaychuk",
+				"ghLink": "tj"
+			},
+			{
+				"name": "hemanth.hm",
+				"ghLink": "hemanth"
+			}
+		]
+	},
+	"techs": {
+		"techsProficient": [
+			{
+				"name": "Node",
+				"icon": "nodejs-icon"
+			},
+			{
+				"name": "Webpack",
+				"icon": "webpack"
+			},
+			{
+				"name": "ES6",
+				"icon": "es6"
+			},
+			{
+				"name": "Git",
+				"icon": "git"
+			}
+		],
+		"techsEnjoyed": [
+			{
+				"name": "D3",
+				"icon": "d3"
+			},
+			{
+				"name": "Angular.js",
+				"icon": "angular-icon"
+			},
+			{
+				"name": "Electron",
+				"icon": "electron"
+			},
+			{
+				"name": "Meteor",
+				"icon": "meteor"
+			},
+			{
+				"name": "Travis",
+				"icon": "travis-ci"
+			}
+		],
+		"techsToLearn": [
+			{
+				"name": "Vue",
+				"icon": "vue"
+			},
+			{
+				"name": "GraphQL",
+				"icon": "graphql"
+			}
+		]
+	},
+	"WorkSetup": [
+		{
+			"name": "PowerShell",
+			"icon": "https://upload.wikimedia.org/wikipedia/ru/7/7f/Windows_PowerShell_icon.png"
+		},
+		{
+			"name": "Sublime",
+			"icon": "http://icons.iconarchive.com/icons/bokehlicia/pacifica/72/sublime-text-icon.png"
+		},
+		{
+			"name": "Git",
+			"icon": "git"
+		},
+		{
+			"name": "Chrome",
+			"icon": "chrome"
+		}
+	]
+}

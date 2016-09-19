@@ -1,0 +1,43 @@
+html, body {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body > div, body > div > div {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.profilePicture {
+	height: 150px;
+	width: 150px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 1px #000;
+}
+
+.margAbove20 {
+	margin-top: 20px;
+}

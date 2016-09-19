@@ -1,42 +1,27 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import Axios from 'axios';
 
-const Main = React.createClass({
-	getInitialState: function() {
-		return {
-			username: '',
-			email: '',
-			location: '',
-		};
-	},
-	componentDidMount: function() {
-		const _this = this;
-		this.serverRequest = Axios.get(this.props.source).then((result) => {
-			console.log(result)
-			var user = result.data;
-			_this.setState({
-				username: user.name,
-				email: user.email,
-				location: user.location,
-			});
-		});
-	},
-	componentWillUnmount: function() {
-		this.serverRequest.abort();
-	},
+class Main extends React.Component {
 	render() {
+		const css = {
+			backgroundImage: `url(${this.props.data.coverPicture})`
+		}
+		const ghLink = `https://github.com/${this.props.data.githubUsername}`;
 		return (
-			<div>
-				<div>{this.state.username}</div>
-				<div>{this.state.email}</div>
-				<div>{this.state.location}</div>
+			<div className='main' style={css}>
+				<div>
+					<div>
+						<img className='profilePicture' src={this.props.data.profilePicture} />
+					</div>
+					<div className='margAbove20'>
+						<a href={ghLink}>{this.props.data.name}</a>
+					</div>
+				</div>
+				<div className='width50'>
+					{this.props.data.description}
+				</div>
 			</div>
 		);
 	}
-});
+};
 
-ReactDom.render(
-	<Main source='https://api.github.com/users/naramsim'/>, 
-	document.getElementById('full')
-);
+export default Main;

@@ -13,7 +13,8 @@
   "dependencies": {
     "axios": "^0.14.0",
     "react": "^15.3.1",
-    "react-dom": "^15.3.1"
+    "react-dom": "^15.3.1",
+    "reset-css": "^2.0.20160720"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
