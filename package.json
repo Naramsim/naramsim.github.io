@@ -14,6 +14,7 @@
     "axios": "^0.14.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
+    "react-twemoji": "0.0.2",
     "reset-css": "^2.0.20160720"
   },
   "devDependencies": {

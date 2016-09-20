@@ -1,4 +1,5 @@
 import React from 'react';
+import Twemoji from 'react-twemoji';
 
 import Tech from './Tech.jsx';
 
@@ -9,14 +10,15 @@ class Repo extends React.Component {
 				<Tech tech={tech} key={tech.name} />
 			);
 		});
+		const link = `https://github.com/${this.props.info.link}`;
 		return (
 			<div className='showcase mid'>
 				<div className='l repoName'>
-					<a href={this.props.info.link}>{this.props.info.name}</a>
+					<a href={link}>{this.props.info.name}</a>
 				</div>
-				<div className='grayed margAbove20 repoDescription'>
+				<Twemoji className='grayed margAbove20 repoDescription'>
 					{this.props.info.description}
-				</div>
+				</Twemoji>
 				<div className='techRow margAbove20 inline'>
 					{techs}
 				</div>
