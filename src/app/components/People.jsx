@@ -2,10 +2,14 @@ import React from 'react';
 
 class Person extends React.Component{
 	render() {
+		const ghLink = `https://github.com/${this.props.person.ghLink}`;
+		const pictureSrc = `https://github.com/${this.props.person.ghLink}.png?size=40`;
 		return (
-			<div>
-				{this.props.person.name}
-				{this.props.person.ghLink}
+			<div className='paddHori10 person margVert30'>
+				<a href={ghLink}>
+					<img className='profilePictureMicro' src={pictureSrc} />
+				</a>
+				<div className='margAbove10'>{this.props.person.name}</div>
 			</div>
 		);
 	}
@@ -18,9 +22,13 @@ class PeopleGroup extends React.Component{
 				<Person person={person} key={person.name} />
 			);
 		});
+		const description = this.props.type === 'friends' ? 
+							'Friends with whom I code' : 
+							'Contributors I admire'
 		return (
-			<div>
-				{rowPeople}
+			<div className='peoples mid'>
+				<div className='l'>{description}</div>
+				<div className='margAbove60 inline people'>{rowPeople}</div>
 			</div>
 		);
 	}
@@ -36,8 +44,8 @@ class Peoples extends React.Component{
 		}
 		return (
 			<div className='rect'>
-				<PeopleGroup people={friends} />
-				<PeopleGroup people={admired} />
+				<PeopleGroup people={friends} type='friends'/>
+				<PeopleGroup people={admired} type='admired'/>
 			</div>
 		);
 	}

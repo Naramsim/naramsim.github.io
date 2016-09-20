@@ -10,14 +10,14 @@ class Repo extends React.Component {
 			);
 		});
 		return (
-			<div className='centered showcase'>
+			<div className='showcase mid'>
 				<div className='l'>
-					{this.props.info.name}
+					<a href={this.props.info.link}>{this.props.info.name}</a>
 				</div>
-				<div>
+				<div className='grayed margAbove20'>
 					{this.props.info.description}
 				</div>
-				<div className='techs'>
+				<div className='techRow margAbove20 inline'>
 					{techs}
 				</div>
 			</div>

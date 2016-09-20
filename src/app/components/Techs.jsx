@@ -9,9 +9,13 @@ class TechGroup extends React.Component {
 				<Tech tech={tech} key={tech.name} />
 			);
 		});
+		const classes = `techs ${this.props.size}`;
 		return (
-			<div className='techs'>
-				{rowTech}
+			<div className={classes}>
+				<div className='l'>{this.props.description}</div>
+				<div className='techRow inline margAbove60'>
+					{rowTech}
+				</div>
 			</div>
 		);
 	}
@@ -30,9 +34,9 @@ class Techs extends React.Component {
 		}
 		return (
 			<div className='rect'>
-				<TechGroup type={proficient} />
-				<TechGroup type={enjoyed} />
-				<TechGroup type={toLearn} />
+				<TechGroup type={proficient} description='Techs in which I am expert' size='big' />
+				<TechGroup type={enjoyed} description='Techs I loved' size='mid' />
+				<TechGroup type={toLearn} description='Techs I would like to learn' size='mid' />
 			</div>
 		);
 	}

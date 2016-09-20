@@ -7,15 +7,23 @@ body > div, body > div > div {
 	height: 100%;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.centered {
+.inline {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	flex-direction: row;
 	text-align: center;
 }
 
@@ -40,23 +48,36 @@ a {
 .rect > div {
 	flex-grow: 0;
 	flex-shrink: 0;
-	flex-basis: 50%;
 	height: 400px;
 }
 
-.showcase {
-	flex-direction: column;
-}
-
-.techs {
+.peoples, .techs, .setup, .showcase {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
-	flex-direction: row;
-	text-align: center;
+	border-bottom: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
 }
 
-.techLogo {
-	height: 30px;
+.people {
+	flex-wrap: wrap;
+}
+
+.person {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 30%;
+}
+
+.techLogo, .profilePictureMicro {
+	height: 55px;
+}
+
+.profilePictureMicro {
+	box-shadow: 0px 0px 1px 1px #d1d1d1;
+	border-radius: 5px;
 }
 
 .width30 {
@@ -70,13 +91,30 @@ a {
 	box-shadow: 0 0 10px 1px #000;
 }
 
+.margAbove60 {
+	margin-top: 60px;
+}
+
 .margAbove20 {
 	margin-top: 20px;
 }
 
-.paddHori10 {
-	padding-right: 10px;
-	padding-left: 10px;
+.margAbove10 {
+	margin-top: 10px;
+}
+
+.margAbove5 {
+	margin-top: 5px;
+}
+
+.margVert30 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.paddHori20 {
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .xl {
@@ -89,6 +127,14 @@ a {
 
 .m {
 	font-size: 12px;
+}
+
+.mid {
+	flex-basis: 50%;
+}
+
+.big {
+	flex-basis: 100%;
 }
 
 .grayed{
