@@ -12,7 +12,7 @@ class TechGroup extends React.Component {
 		const classes = `techs ${this.props.size}`;
 		return (
 			<div className={classes}>
-				<div className='l'>{this.props.description}</div>
+				<div className='l sectionHeader'>{this.props.description}</div>
 				<div className='techRow inline margAbove60'>
 					{rowTech}
 				</div>

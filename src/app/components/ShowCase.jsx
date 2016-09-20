@@ -11,10 +11,10 @@ class Repo extends React.Component {
 		});
 		return (
 			<div className='showcase mid'>
-				<div className='l'>
+				<div className='l repoName'>
 					<a href={this.props.info.link}>{this.props.info.name}</a>
 				</div>
-				<div className='grayed margAbove20'>
+				<div className='grayed margAbove20 repoDescription'>
 					{this.props.info.description}
 				</div>
 				<div className='techRow margAbove20 inline'>

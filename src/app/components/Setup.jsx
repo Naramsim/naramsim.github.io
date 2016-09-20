@@ -15,7 +15,7 @@ class SetUp extends React.Component {
 		return (
 			<div className='rect'>
 				<div className='setup big'>
-					<div className='l'>My working setup</div>
+					<div className='l sectionHeader'>My working setup</div>
 					<div className='techRow inline margAbove60'>
 						{setup}
 					</div>

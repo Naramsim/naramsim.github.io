@@ -4,6 +4,9 @@ import Axios from 'axios';
 
 import 'reset-css/reset.css';
 import '../../style/common.css';
+import '../../style/components.css';
+import '../../style/desktop.css';
+import '../../style/mobile.css';
 
 import Main from './Main.jsx';
 import Scrolled from './Scrolled.jsx';

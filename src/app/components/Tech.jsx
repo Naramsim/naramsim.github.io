@@ -8,7 +8,7 @@ class Tech extends React.Component {
 		const techName = this.props.tech.name;
 		const techHref = `http://www.google.com/search?q=${this.props.tech.name}&btnI`;
 		return (
-			<div className='paddHori20 tech'>
+			<div className='paddHori20 tech margVert30'>
 				<a href={techHref}>
 					<img className='techLogo' src={techSrc} alt={techName} />
 				</a>

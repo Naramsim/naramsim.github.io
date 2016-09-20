@@ -1,6 +1,7 @@
 html, body {
 	height: 100%;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
 }
 
 body > div, body > div > div {
@@ -27,68 +28,8 @@ a {
 	text-align: center;
 }
 
-.main {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #ccc;
-	background-blend-mode: overlay;
-	box-shadow: 0 3px 10px 1px #828282;
-}
-
-.rect {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.rect > div {
-	flex-grow: 0;
-	flex-shrink: 0;
-	height: 400px;
-}
-
-.peoples, .techs, .setup, .showcase {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border-bottom: 1px solid #e7e7e7;
-    border-left: 1px solid #e7e7e7;
-}
-
-.people {
-	flex-wrap: wrap;
-}
-
-.person {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	flex-basis: 30%;
-}
-
-.techLogo, .profilePictureMicro {
-	height: 55px;
-}
-
-.profilePictureMicro {
-	box-shadow: 0px 0px 1px 1px #d1d1d1;
-	border-radius: 5px;
-}
-
 .width30 {
 	width: 30%;
-}
-
-.profilePicture {
-	height: 150px;
-	width: 150px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px 1px #000;
 }
 
 .margAbove60 {
@@ -118,15 +59,15 @@ a {
 }
 
 .xl {
-	font-size: 50px;
+	font-size: 312.5%;
 }
 
 .l {
-	font-size: 24px;
+	font-size: 150%;
 }
 
 .m {
-	font-size: 12px;
+	font-size: 75%;
 }
 
 .mid {

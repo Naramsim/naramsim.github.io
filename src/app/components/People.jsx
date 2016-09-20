@@ -3,7 +3,7 @@ import React from 'react';
 class Person extends React.Component{
 	render() {
 		const ghLink = `https://github.com/${this.props.person.ghLink}`;
-		const pictureSrc = `https://github.com/${this.props.person.ghLink}.png?size=40`;
+		const pictureSrc = `https://github.com/${this.props.person.ghLink}.png?size=80`;
 		return (
 			<div className='paddHori10 person margVert30'>
 				<a href={ghLink}>
@@ -27,7 +27,7 @@ class PeopleGroup extends React.Component{
 							'Contributors I admire'
 		return (
 			<div className='peoples mid'>
-				<div className='l'>{description}</div>
+				<div className='l sectionHeader'>{description}</div>
 				<div className='margAbove60 inline people'>{rowPeople}</div>
 			</div>
 		);
