@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import Twemoji from 'react-twemoji';
 
 class Main extends React.Component {
 	constructor(props) {
@@ -39,7 +40,9 @@ class Main extends React.Component {
 					</div>
 				</div>
 				<div className='width30 l description delay07 defaultTiming'>
-					{this.props.data.description}
+					<div>{this.props.data.description}</div>
+					<Twemoji>🎓 {this.props.data.education}</Twemoji>
+					<Twemoji>👔 {this.props.data.work}</Twemoji>
 				</div>
 			</div>
 		);
