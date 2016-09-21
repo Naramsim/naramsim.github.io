@@ -14,6 +14,11 @@
 }
 
 .viewed.tech {
+	transform: translateY(0px) rotateX(0deg);
+	opacity: 1;
+}
+
+.viewed.person {
 	transform: translateY(0px);
 	opacity: 1;
 }

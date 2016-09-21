@@ -1,11 +1,16 @@
 import React from 'react';
+import inView from 'in-view';
 
 class Person extends React.Component{
 	render() {
 		const ghLink = `https://github.com/${this.props.person.ghLink}`;
 		const pictureSrc = `https://github.com/${this.props.person.ghLink}.png?size=80`;
+		const personId = `p${new Date().getTime()}`;
 		return (
-			<div className='paddHori10 person margVert30'>
+			<div className='paddHori10 person margVert30 delayChild defaultTiming' id={personId} ref={(person) => {
+				//console.log(document.querySelectorAll(`#t${personId}`));
+				inView(`#${personId}`).once('enter', () => {person.classList.add('viewed')})
+			}}>
 				<a href={ghLink}>
 					<img className='profilePictureMicro' src={pictureSrc} />
 				</a>

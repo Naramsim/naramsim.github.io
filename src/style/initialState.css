@@ -14,7 +14,12 @@
 }
 
 .tech {
-	transform: translateY(-30px);
+	transform: translateY(-30px) rotateX(40deg);
+	opacity: 0;
+}
+
+.person {
+	transform: translateY(30px);
 	opacity: 0;
 }
 
