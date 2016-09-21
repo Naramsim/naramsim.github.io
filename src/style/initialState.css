@@ -1,0 +1,28 @@
+.description {
+	transform: translateX(80px) scale(0.8, 0.8);
+	opacity: 0;
+}
+
+.name {
+	transform: translateY(100px) scale(0.8, 0.8);
+	opacity: 0;
+}
+
+.profilePicture {
+	transform: translateX(-100px) scale(0.8, 0.8);
+	opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+	.description {
+		transform: translateY(80px) scale(0.8, 0.8);
+	}
+
+	.name {
+		transform: translateY(20px) scale(0.8, 0.8);
+	}
+
+	.profilePicture {
+		transform: translateY(-100px) scale(0.8, 0.8);
+	}
+}

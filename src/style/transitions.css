@@ -1,0 +1,16 @@
+.delay05 {
+	transition-delay: .5s;
+}
+
+.delay07 {
+	transition-delay: .7s;
+}
+
+.delay1 {
+	transition-delay: 1s;
+}
+
+.defaultTiming {
+    transition-timing-function :cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition-duration: .5s;
+}

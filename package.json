@@ -12,9 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.14.0",
+    "classnames": "^2.2.5",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-twemoji": "0.0.2",
+    "react-visibility-sensor": "^3.4.0",
     "reset-css": "^2.0.20160720"
   },
   "devDependencies": {

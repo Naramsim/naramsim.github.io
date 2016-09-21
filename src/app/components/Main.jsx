@@ -1,24 +1,44 @@
 import React from 'react';
+import classNames from 'classnames';
 
 class Main extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			loaded: null
+		};
+	}
+	imageLoaded() {
+		this.setState({
+			loaded: true
+		});
+	}
 	render() {
 		const css = {
 			backgroundImage: `url(${this.props.data.coverPicture})`
 		}
 		const ghLink = `https://github.com/${this.props.data.githubUsername}`;
+		const mainClasses = classNames({
+				main: true,
+				loaded: this.state.loaded
+			});
 		return (
-			<div className='main' style={css}>
+			<div className={mainClasses} style={css}>
 				<div>
 					<div>
 						<a href={ghLink}>
-							<img className='profilePicture' src={this.props.data.profilePicture} />
+							<img 
+								className='profilePicture delay05 defaultTiming' 
+								src={this.props.data.profilePicture}
+								onLoad={this.imageLoaded.bind(this)} 
+								/>
 						</a>
 					</div>
-					<div className='margAbove20 xl name'>
+					<div className='margAbove20 xl name delay1 defaultTiming'>
 						<a href={ghLink}>{this.props.data.name}</a>
 					</div>
 				</div>
-				<div className='width30 l description'>
+				<div className='width30 l description delay07 defaultTiming'>
 					{this.props.data.description}
 				</div>
 			</div>

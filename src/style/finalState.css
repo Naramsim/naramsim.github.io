@@ -1,0 +1,14 @@
+.loaded .description {
+	transform: translateY(0px) scale(1, 1);
+	opacity: 1;
+}
+
+.loaded .name {
+	transform: translateX(0px) scale(1, 1);
+	opacity: 1;
+}
+
+.loaded .profilePicture {
+	transform: translateY(0px) scale(1, 1);
+	opacity: 1;
+}
