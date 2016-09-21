@@ -14,3 +14,32 @@
     transition-timing-function :cubic-bezier(0.250, 0.460, 0.450, 0.940);
     transition-duration: .5s;
 }
+
+.delayChild:nth-child(0) {
+	transition-delay: .0s;
+}
+
+.delayChild:nth-child(1) {
+	transition-delay: .1s;
+}
+
+.delayChild:nth-child(2) {
+	transition-delay: .2s;
+}
+
+.delayChild:nth-child(3) {
+	transition-delay: .3s;
+}
+
+.delayChild:nth-child(4) {
+	transition-delay: .4s;
+}
+
+.delayChild:nth-child(5) {
+	transition-delay: .5s;
+}
+
+.delayChild:nth-child(6) {
+	transition-delay: .6s;
+}
+

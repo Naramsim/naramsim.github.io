@@ -12,3 +12,8 @@
 	transform: translateY(0px) scale(1, 1);
 	opacity: 1;
 }
+
+.viewed.tech {
+	transform: translateY(0px);
+	opacity: 1;
+}

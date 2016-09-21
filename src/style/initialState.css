@@ -13,6 +13,11 @@
 	opacity: 0;
 }
 
+.tech {
+	transform: translateY(-30px);
+	opacity: 0;
+}
+
 @media screen and (max-width: 800px) {
 	.description {
 		transform: translateY(80px) scale(0.8, 0.8);

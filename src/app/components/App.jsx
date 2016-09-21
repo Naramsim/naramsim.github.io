@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import Axios from 'axios';
+import inView from 'in-view';
 
 import 'reset-css/reset.css';
 import '../../style/common.css';
@@ -13,6 +14,8 @@ import '../../style/finalState.css';
 
 import Main from './Main.jsx';
 import Scrolled from './Scrolled.jsx';
+
+inView.offset(100);
 
 const App = React.createClass({
 	loadData: function() {
