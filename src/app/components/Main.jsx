@@ -41,8 +41,8 @@ class Main extends React.Component {
 				</div>
 				<div className='width30 l description delay07 defaultTiming'>
 					<div>{this.props.data.description}</div>
-					<Twemoji>🎓 {this.props.data.education}</Twemoji>
-					<Twemoji>👔 {this.props.data.work}</Twemoji>
+					<Twemoji className='m lightBlack'>🎓 {this.props.data.education}</Twemoji>
+					<Twemoji className='m lightBlack'>👔 {this.props.data.work}</Twemoji>
 				</div>
 			</div>
 		);
