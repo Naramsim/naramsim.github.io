@@ -7,10 +7,10 @@ class Tech extends React.Component {
 	}
 	render() {
 		const techSrc = this.props.tech.icon.indexOf('://') === -1 ?
-							`http://svgporn.com/logos/${this.props.tech.icon}.svg` : 
+							`https://svgporn.com/logos/${this.props.tech.icon}.svg` : 
 							this.props.tech.icon;
 		const techName = this.props.tech.name;
-		const techHref = `http://www.google.com/search?q=${this.props.tech.name}&btnI`;
+		const techHref = `https://www.google.com/search?q=${this.props.tech.name}&btnI`;
 		const techId = `t${new Date().getTime()}`;
 		return (
 			<div className='paddHori20 tech margVert30 delayChild defaultTiming' id={techId} ref={(tech) => {
