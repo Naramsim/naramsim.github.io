@@ -63,7 +63,7 @@
 	height: 150px;
 	width: 150px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px 1px #000;
+	box-shadow: 0 0 7px 1px rgb(149, 149, 149);
 }
 
 .repoDescription {

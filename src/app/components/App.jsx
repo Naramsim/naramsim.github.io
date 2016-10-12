@@ -46,6 +46,6 @@ const App = React.createClass({
 });
 
 ReactDom.render(
-	<App source='https://jsonblob.com/api/jsonblob/57e15e2ee4b0dc55a4f75a0c'/>, 
+	<App source='./user.json'/>, 
 	document.getElementById('app')
 );

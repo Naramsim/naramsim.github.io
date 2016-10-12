@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     target: 'web',
@@ -7,7 +8,8 @@ module.exports = {
     output: {
         libraryTarget: 'umd',
         path: 'dist',
-        filename: 'index.jsx'
+        filename: 'index.js',
+        //publicPath: '/dist/'
     },
     module: {
         loaders: [
@@ -17,7 +19,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader!autoprefixer-loader'
+                loader: 'style-loader!css-loader!postcss-loader'
             },
             {
             test: /\.jsx?$/,
@@ -36,12 +38,16 @@ module.exports = {
             }
         ]
     },
+    postcss: function () {
+        return [require('postcss-cssnext')];
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.hbs',
             inject: 'body',
             hash: true,
             cache: false
-        })
+        }),
+        new CopyWebpackPlugin([ { from: 'src/data'} ])
     ]
 };
