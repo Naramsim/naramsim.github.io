@@ -7,7 +7,7 @@ class Tech extends React.Component {
 	}
 	render() {
 		const techSrc = this.props.tech.icon.indexOf('://') === -1 ?
-							`https://svgporn.com/logos/${this.props.tech.icon}.svg` : 
+							`//svgporn.com/logos/${this.props.tech.icon}.svg` : 
 							this.props.tech.icon;
 		const techName = this.props.tech.name;
 		const techHref = `https://www.google.com/search?q=${this.props.tech.name}&btnI`;

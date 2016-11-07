@@ -8,14 +8,13 @@ module.exports = {
     output: {
         libraryTarget: 'umd',
         path: 'dist',
-        filename: 'index.js',
-        //publicPath: '/dist/'
+        filename: 'index.js'
     },
     module: {
         loaders: [
             {
-                test: /\.hbs$/,
-                loader: 'handlebars-loader'
+                test: /\.html$/,
+                loader: 'html-loader'
             },
             {
                 test: /\.css$/,
@@ -28,13 +27,6 @@ module.exports = {
                 query: {
                     presets: ['react', 'es2015']
                 }
-            },
-            {
-                test: /.*\.(gif|png|jpe?g|svg)$/i,
-                loaders: [
-                    'file?hash=sha512&digest=hex&name=[name][hash].[ext]',
-                    'image-webpack?{progressive:true, optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}}'
-                ]
             }
         ]
     },
@@ -43,7 +35,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.hbs',
+            template: './src/index.html',
             inject: 'body',
             hash: true,
             cache: false
