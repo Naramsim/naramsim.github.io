@@ -1,11 +1,11 @@
 {
 	"name": "Alessandro Pezzé",
 	"githubUsername": "Naramsim",
-	"profilePicture": "https://avatars3.githubusercontent.com/u/8996268?v=3&s=466",
-	"coverPicture": "https://drscdn.500px.org/photo/128169293/q%3D80_m%3D2000/314eb533f9ef98b31c854ccdc2de5af2",
-	"description": "I think, fundamentally, open source does tend to be more stable software. It's the right way to do things.",
+	"profilePicture": "https://imgur.com/TRmaKJ3.png",
+	"coverPicture": "https://lh3.googleusercontent.com/5FaVycekW7iM-VaZP2QU5S7wBVrazgexy_LGgIAqiM5ij-Liph8tKA_WrQfvpDMWohmztdcJdSEU_woRzJltBRnKjxJB7S900YtZeWiGhEEk1Xd4Cq93CoCZcn_xKU1lnoRoAlNCxt4VKYcoU1ufYx10HNq-s4FnMnOmvv8JNvfO3ifblQQGRUxPsPu6f2-4KqnEHZc-AXAK0HZUjbDYwiTZD1iIbhg808Ne0K5DCFE9IEIy7z1y6uxR-t_4Pn03b866m5Pxh5vMfJ_ZhAo22ElbVjNPVwOO1TIqYknebDYtKUyEj7jASaKzm9RDKFG40Nmmd1iy66JFdDOeVARj5YVxXo9BmWYEYEcCRyGkRqLcAaAl9bvc4490kwXfGGLy3bM0dLQboxp1O0V9tUJ-84sUYIxSHe3wGFpFjTDCmfJREXuK4KI9l0fvZk7C8b6rbhPtEqEejQH0sz0G6Xh9ypYY6KfPx1vKqhm3bIWHFLlhr2Dx51BZ9VO0sVxcOuZ9pOE3OB2Ge7gIB7_ojcKfta-pYbwQpNu9R4odjy3kPJliJOiBqdtly4Zm9-alpN0XIbLFh6Ef3IpkJWGvtFwKPETv0oQno4VQfDFsPSx0SC25QlPWfXc02qEXlk49FlB5m1_rL89R_BqDqGerOx8GqbWUtYG1YWa2qw=w1732-h902-no",
+	"description": "I think, fundamentally, open source does tend to be more stable software. It's the right way to do things. - Torvalds",
 	"education": "Computer Science B.S.",
-	"work": "Rovereto civic museum, robotics department",
+	"work": "SAP | Rovereto civic museum, robotics department",
 	"showcase": [
 		{
 			"name": "GithubOriginalStreak",
@@ -147,6 +147,10 @@
 			{
 				"name": "Git",
 				"icon": "git-icon"
+			},
+			{
+				"name": "Docker",
+				"icon": "docker"
 			}
 		],
 		"techsEnjoyed": [
@@ -159,8 +163,12 @@
 				"icon": "angular-icon"
 			},
 			{
+				"name": "React",
+				"icon": "react"
+			},
+			{
 				"name": "Electron",
-				"icon": "https://comsysto.files.wordpress.com/2015/09/electorn-logo-2.png?w=300&h=300"
+				"icon": "electron"
 			},
 			{
 				"name": "Meteor",
@@ -173,10 +181,6 @@
 		],
 		"techsToLearn": [
 			{
-				"name": "Vue",
-				"icon": "vue"
-			},
-			{
 				"name": "GraphQL",
 				"icon": "graphql"
 			},
@@ -186,7 +190,7 @@
 			},
 			{
 				"name": "AWS",
-				"icon": "http://www.tivix.com/uploads/blog_pics/aws-logo.png"
+				"icon": "aws"
 			}
 		]
 	},
@@ -196,12 +200,12 @@
 			"icon": "microsoft-windows"
 		},
 		{
-			"name": "PowerShell",
-			"icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png"
+			"name": "Bash",
+			"icon": "bash"
 		},
 		{
-			"name": "Sublime",
-			"icon": "http://kenvandamme.be/tutorials/workspace/images/sublime.png"
+			"name": "VS Code",
+			"icon": "visual-studio-code"
 		},
 		{
 			"name": "Git",
@@ -214,6 +218,10 @@
 		{
 			"name": "Github",
 			"icon": "github-icon"
+		},
+		{
+			"name": "Docker",
+			"icon": "docker"
 		}
 	]
 }
