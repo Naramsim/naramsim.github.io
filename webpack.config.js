@@ -1,5 +1,6 @@
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     target: 'web',
@@ -7,31 +8,39 @@ module.exports = {
     entry: './src/app/components/App.jsx',
     output: {
         libraryTarget: 'umd',
-        path: 'dist',
+        path: path.resolve(__dirname, 'dist'),
         filename: 'index.js'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.html$/,
                 loader: 'html-loader'
             },
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader!postcss-loader'
+                loaders: ['style-loader', 'css-loader']
             },
             {
-            test: /\.jsx?$/,
+                test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/,
-                loader: 'babel',
-                query: {
+                loader: 'babel-loader',
+                options: {
                     presets: ['react', 'es2015']
                 }
             }
         ]
     },
-    postcss: function () {
-        return [require('postcss-cssnext')];
+    resolve: {
+        alias: {
+            'react': 'preact-compat',
+            'react-dom': 'preact-compat',
+            'create-react-class': 'preact-compat/lib/create-react-class'
+        }
+    },
+    devServer: {
+        contentBase: path.resolve(__dirname, 'dist'),
+        port: 9000
     },
     plugins: [
         new HtmlWebpackPlugin({

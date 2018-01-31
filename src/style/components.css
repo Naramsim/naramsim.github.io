@@ -8,6 +8,7 @@
 	background-color: #ccc;
 	background-blend-mode: overlay;
 	box-shadow: 0 3px 10px 1px #828282;
+	background-size: cover;
 }
 
 .description {

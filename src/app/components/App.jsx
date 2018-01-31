@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import Axios from 'axios';
 import inView from 'in-view';
+import createReactClass from 'create-react-class';
 
 import 'reset-css/reset.css';
 import '../../style/common.css';
@@ -17,7 +18,7 @@ import Scrolled from './Scrolled.jsx';
 
 inView.offset(100);
 
-const App = React.createClass({
+const App = createReactClass({
 	loadData: function() {
 		const _this = this;
 		Axios.get(this.props.source).then((result) => {

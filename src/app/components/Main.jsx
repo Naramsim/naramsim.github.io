@@ -16,7 +16,8 @@ class Main extends React.Component {
 	}
 	render() {
 		const css = {
-			backgroundImage: `url(${this.props.data.coverPicture})`
+			background: `url(${this.props.data.coverPicture}) no-repeat center center scroll #c5c5c5cc / cover`,
+			backgroundSize: "cover"
 		}
 		const ghLink = `https://github.com/${this.props.data.githubUsername}`;
 		const mainClasses = classNames({
