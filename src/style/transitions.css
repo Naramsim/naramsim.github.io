@@ -43,3 +43,7 @@
 	transition-delay: .6s;
 }
 
+.delayChild:nth-child(7) {
+	transition-delay: .7s;
+}
+
