@@ -151,6 +151,10 @@
 			{
 				"name": "Docker",
 				"icon": "docker"
+			},
+			{
+				"name": "Python",
+				"icon": "python"
 			}
 		],
 		"techsEnjoyed": [
@@ -187,6 +191,10 @@
 			{
 				"name": "Go",
 				"icon": "gopher"
+			},
+			{
+				"name": "Kubernetes",
+				"icon": "kubernetes"
 			},
 			{
 				"name": "AWS",
