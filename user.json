@@ -4,8 +4,8 @@
 	"profilePicture": "https://imgur.com/TRmaKJ3.png",
 	"coverPicture": "https://i.imgur.com/Wqv1DvR.png",
 	"description": "I think, fundamentally, open source does tend to be more stable software. It's the right way to do things. - Torvalds",
-	"education": "Computer Science B.S.",
-	"work": "SAP | Rovereto civic museum, robotics department",
+	"education": "Computer Science M.S.",
+	"work": "DevOps at SAP",
 	"showcase": [
 		{
 			"name": "GithubOriginalStreak",
@@ -189,16 +189,16 @@
 				"icon": "graphql"
 			},
 			{
-				"name": "Go",
-				"icon": "gopher"
+				"name": "Rust",
+				"icon": "rust"
 			},
 			{
 				"name": "Kubernetes",
-				"icon": "kubernets"
+				"icon": "kubernetes"
 			},
 			{
-				"name": "AWS",
-				"icon": "aws"
+				"name": "GCP",
+				"icon": "google-cloud-platform"
 			}
 		]
 	},
