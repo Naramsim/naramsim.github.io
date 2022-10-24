@@ -15,7 +15,7 @@
 			"techs": [
 				{
 					"name": "ES6",
-					"icon": "es6"
+					"icon": "https://fuzeservers.ru/wp-content/uploads/0/b/d/0bd0442782ef66cfa9cdfed852fc8626.jpeg"
 				},
 				{
 					"name": "Webpack",
@@ -31,7 +31,7 @@
 			"techs": [
 				{
 					"name": "ES6",
-					"icon": "es6"
+					"icon": "https://fuzeservers.ru/wp-content/uploads/0/b/d/0bd0442782ef66cfa9cdfed852fc8626.jpeg"
 				},
 				{
 					"name": "Webpack",
@@ -55,11 +55,11 @@
 			"techs": [
 				{
 					"name": "Meteor",
-					"icon": "meteor-icon"
+					"icon": "https://jelvix.com/wp-content/uploads/2018/06/meteor-framework.jpg"
 				},
 				{
 					"name": "Mongo",
-					"icon": "http://www.unixstickers.com/image/cache/data/stickers/mongo/mongo.sh-600x600.png"
+					"icon": "https://blog.itkonekt.com/wp-content/uploads/2015/05/mongo_sam.jpg"
 				},
 				{
 					"name": "Nginx",
@@ -75,7 +75,7 @@
 			"techs": [
 				{
 					"name": "ES6",
-					"icon": "es6"
+					"icon": "https://fuzeservers.ru/wp-content/uploads/0/b/d/0bd0442782ef66cfa9cdfed852fc8626.jpeg"
 				},
 				{
 					"name": "Webpack",
@@ -142,7 +142,7 @@
 			},
 			{
 				"name": "ES6",
-				"icon": "es6"
+				"icon": "https://fuzeservers.ru/wp-content/uploads/0/b/d/0bd0442782ef66cfa9cdfed852fc8626.jpeg"
 			},
 			{
 				"name": "Git",

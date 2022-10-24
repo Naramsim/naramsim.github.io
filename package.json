@@ -8,7 +8,7 @@
     "build:watch": "webpack-dev-server --hot --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Naramsim",
+  "author": "Naramsim | Alessandro Pezzè | igougi.ui@gmail.com",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1",
