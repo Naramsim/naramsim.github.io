@@ -1,0 +1,227 @@
+{
+	"name": "Alessandro Pezzé",
+	"githubUsername": "Naramsim",
+	"profilePicture": "https://imgur.com/TRmaKJ3.png",
+	"coverPicture": "https://lh3.googleusercontent.com/5FaVycekW7iM-VaZP2QU5S7wBVrazgexy_LGgIAqiM5ij-Liph8tKA_WrQfvpDMWohmztdcJdSEU_woRzJltBRnKjxJB7S900YtZeWiGhEEk1Xd4Cq93CoCZcn_xKU1lnoRoAlNCxt4VKYcoU1ufYx10HNq-s4FnMnOmvv8JNvfO3ifblQQGRUxPsPu6f2-4KqnEHZc-AXAK0HZUjbDYwiTZD1iIbhg808Ne0K5DCFE9IEIy7z1y6uxR-t_4Pn03b866m5Pxh5vMfJ_ZhAo22ElbVjNPVwOO1TIqYknebDYtKUyEj7jASaKzm9RDKFG40Nmmd1iy66JFdDOeVARj5YVxXo9BmWYEYEcCRyGkRqLcAaAl9bvc4490kwXfGGLy3bM0dLQboxp1O0V9tUJ-84sUYIxSHe3wGFpFjTDCmfJREXuK4KI9l0fvZk7C8b6rbhPtEqEejQH0sz0G6Xh9ypYY6KfPx1vKqhm3bIWHFLlhr2Dx51BZ9VO0sVxcOuZ9pOE3OB2Ge7gIB7_ojcKfta-pYbwQpNu9R4odjy3kPJliJOiBqdtly4Zm9-alpN0XIbLFh6Ef3IpkJWGvtFwKPETv0oQno4VQfDFsPSx0SC25QlPWfXc02qEXlk49FlB5m1_rL89R_BqDqGerOx8GqbWUtYG1YWa2qw=w1732-h902-no",
+	"description": "I think, fundamentally, open source does tend to be more stable software. It's the right way to do things. - Torvalds",
+	"education": "Computer Science B.S.",
+	"work": "SAP | Rovereto civic museum, robotics department",
+	"showcase": [
+		{
+			"name": "GithubOriginalStreak",
+			"description": "Extension to get back current and longest streak. Original version ⭐ No libraries ⚡ All Browsers 💥",
+			"size": "mid",
+			"link": "Naramsim/GithubOriginalStreak",
+			"techs": [
+				{
+					"name": "ES6",
+					"icon": "https://fuzeservers.ru/wp-content/uploads/0/b/d/0bd0442782ef66cfa9cdfed852fc8626.jpeg"
+				},
+				{
+					"name": "Webpack",
+					"icon": "webpack"
+				}
+			]
+		},
+		{
+			"name": "Colosseum",
+			"description": "A very-nice pokedex",
+			"size": "mid",
+			"link": "Naramsim/Colosseum",
+			"techs": [
+				{
+					"name": "ES6",
+					"icon": "https://fuzeservers.ru/wp-content/uploads/0/b/d/0bd0442782ef66cfa9cdfed852fc8626.jpeg"
+				},
+				{
+					"name": "Webpack",
+					"icon": "webpack"
+				},
+				{
+					"name": "Angular",
+					"icon": "angular-icon"
+				},
+				{
+					"name": "CSS3",
+					"icon": "css-3"
+				}
+			]
+		},
+		{
+			"name": "Betterbin",
+			"description": "Meteor Pastebin",
+			"size": "mid",
+			"link": "Naramsim/Betterbin",
+			"techs": [
+				{
+					"name": "Meteor",
+					"icon": "https://jelvix.com/wp-content/uploads/2018/06/meteor-framework.jpg"
+				},
+				{
+					"name": "Mongo",
+					"icon": "https://blog.itkonekt.com/wp-content/uploads/2015/05/mongo_sam.jpg"
+				},
+				{
+					"name": "Nginx",
+					"icon": "https://pbs.twimg.com/profile_images/567774844322713600/tYoVju31.png"
+				}
+			]
+		},
+		{
+			"name": "pokedex-promise-v2",
+			"description": "An easy way to use pokeapi v2 with promises in node.js",
+			"size": "mid",
+			"link": "PokeAPI/pokedex-promise-v2",
+			"techs": [
+				{
+					"name": "ES6",
+					"icon": "https://fuzeservers.ru/wp-content/uploads/0/b/d/0bd0442782ef66cfa9cdfed852fc8626.jpeg"
+				},
+				{
+					"name": "Webpack",
+					"icon": "webpack"
+				}
+			]
+		}
+	],
+	"people": {
+		"githubFriends": [
+			{
+				"name": "Mattia Affabris",
+				"ghLink": "Gliptal"
+			},
+			{
+				"name": "Federico Baldessari",
+				"ghLink": "balde73"
+			},
+			{
+				"name": "Norbert Paissan",
+				"ghLink": "npaissan"
+			},
+			{
+				"name": "Marco Michelotti",
+				"ghLink": "kamauz"
+			},
+			{
+				"name": "Alessio Gorla",
+				"ghLink": "gorlux"
+			}
+		],
+		"githubAdmired": [
+			{
+				"name": "Sindre Sorhus",
+				"ghLink": "sindresorhus"
+			},
+			{
+				"name": "Eval You",
+				"ghLink": "yyx990803"
+			},
+			{
+				"name": "Addy Osmani",
+				"ghLink": "addyosmani"
+			},
+			{
+				"name": "TJ Holowaychuk",
+				"ghLink": "tj"
+			},
+			{
+				"name": "hemanth.hm",
+				"ghLink": "hemanth"
+			}
+		]
+	},
+	"techs": {
+		"techsProficient": [
+			{
+				"name": "Node",
+				"icon": "nodejs-icon"
+			},
+			{
+				"name": "Webpack",
+				"icon": "webpack"
+			},
+			{
+				"name": "ES6",
+				"icon": "https://fuzeservers.ru/wp-content/uploads/0/b/d/0bd0442782ef66cfa9cdfed852fc8626.jpeg"
+			},
+			{
+				"name": "Git",
+				"icon": "git-icon"
+			},
+			{
+				"name": "Docker",
+				"icon": "docker"
+			}
+		],
+		"techsEnjoyed": [
+			{
+				"name": "D3",
+				"icon": "d3"
+			},
+			{
+				"name": "Angular.js",
+				"icon": "angular-icon"
+			},
+			{
+				"name": "React",
+				"icon": "react"
+			},
+			{
+				"name": "Electron",
+				"icon": "electron"
+			},
+			{
+				"name": "Meteor",
+				"icon": "meteor-icon"
+			},
+			{
+				"name": "Travis",
+				"icon": "travis-ci"
+			}
+		],
+		"techsToLearn": [
+			{
+				"name": "GraphQL",
+				"icon": "graphql"
+			},
+			{
+				"name": "Go",
+				"icon": "gopher"
+			},
+			{
+				"name": "AWS",
+				"icon": "aws"
+			}
+		]
+	},
+	"WorkSetup": [
+		{
+			"name": "Windows",
+			"icon": "microsoft-windows"
+		},
+		{
+			"name": "Bash",
+			"icon": "bash"
+		},
+		{
+			"name": "VS Code",
+			"icon": "visual-studio-code"
+		},
+		{
+			"name": "Git",
+			"icon": "git-icon"
+		},
+		{
+			"name": "Chrome",
+			"icon": "chrome"
+		},
+		{
+			"name": "Github",
+			"icon": "github-icon"
+		},
+		{
+			"name": "Docker",
+			"icon": "docker"
+		}
+	]
+}
